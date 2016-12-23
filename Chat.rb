@@ -1,3 +1,5 @@
+module ChatSystem
+  
 require 'socket'
 
 class ChatServerRuby
@@ -50,6 +52,4 @@ class ChatServerRuby
     end
   end
 end
-
-  rubychatserver = ChatServerRuby.new(2000)
-  rubychatserver.runtime
+end
